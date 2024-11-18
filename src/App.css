@@ -1,1 +1,51 @@
- 
+ /* تنسيق النموذج */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  }
+  
+  /* تنسيق الزر */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* تنسيق رسالة الحالة */
+  .status-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+    text-align: center;
+  }
+  
